@@ -1,1 +1,295 @@
-/* Acá va tu código */
+/* HACER MENU DESPLEGABLE RESPONSIVE */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background: chocolate;
+}
+
+#btn-menu {
+    display: none;
+}
+
+
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+ 
+}
+.menu li {
+flex-grow: 1;
+border-right: 1px solid #fff;
+text-align: center;
+}
+.menu li:hover {
+    background: rgba(0,0,0,0.3);
+}
+.menu li a {
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media (max-width:760px) {
+
+    header label {
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background: #1a3d5e;
+        width: 30%;
+        margin-left: -50%;
+        transition: all 0.5s;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 1px solid #fff;
+        text-align: center;
+        }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+        }
+
+}
+/* ------------------------------------------------ */
+/* es para mostrar el menu desplegable  */
+main{
+    width: 100%;
+    height: auto;
+    background: #2d3e50;
+    position:absolute;
+}
+.content-all{
+    width: 100%;
+    max-width: 1000px;
+    background: #979FA8;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid white;  
+}
+article{
+    padding: 40px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #979FA8;
+}
+
+.content-all h2{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;text-align: right;
+    color: azure;
+}
+article h1{
+    font-size: 30px;
+    color: black;
+    font-weight: 100;
+    margin-top: 20px;
+    text-align: center;
+}
+article .parrafo1{
+font-size: 20px;
+color: aliceblue;
+margin-top: 40px;
+letter-spacing: 2px;
+text-align: center;
+} */
+
+article img{
+    width: 100px;
+    border: 4px solid white;
+}
+article .parrafo2{
+font-size: 20px;
+color: aliceblue;
+margin-top: 40px;
+letter-spacing: 1px;
+}
+
+/* -----------------------------------------------  */
+
+/* Esta funcion es para mostrar la imagen con el parrafo encima */
+
+div#imagen{
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    background-image: url(https://i.pinimg.com/564x/f2/c5/b9/f2c5b9c4f562975b827d38b524045242.jpg);
+    cursor: pointer;
+}
+
+div#info{
+    position: absolute;
+    overflow: hidden;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(31, 31, 31, 0,9);
+    -webkit-transition: opacity 0.6s;
+    opacity: 0;
+    color: blue;
+}
+
+div#imagen:hover div#info{
+    opacity: 0.6;
+}
+
+p#headline{
+    position: absolute;
+    margin-top: 90px;
+    -webkit-transition: margin 0.8s;
+    margin-left: -70px;
+    font-size: 21px;
+    color: red;
+}
+div#imagen:hover p#headline{
+    margin-left: 70px;
+}
+id#home-imagen:hover{
+    width: 30px;
+    height: 380px;
+}
+div#info2{
+    position: absolute;
+    overflow: hidden;
+    width: 50px;
+    height: 60px;
+    background-color: rgba(31, 31, 31, 0,9);
+    -webkit-transition: opacity 0.9s;
+    opacity: 0;
+   
+}
+.hide{
+    display: none;
+}
+/* ------------------------------------------- */
+/* index3 html*/
+#index3{
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    background-origin: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
+.contenedor {
+    position: absolute;
+    width: 60vmin;
+    height: 50vmin;
+    top: 75%;
+    left: 55%;
+    transform: translate(-0.5%,-80%);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0  0 40px 5px rgba(255, 255, 255, 0.6)
+}
+.con_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-out;
+    box-shadow:  0 20px 5px #fff;
+    will-change: transform;
+}
+.con_img:hover {
+    transform: scale(1) rotate(0);
+    z-index: 1;
+}
+.con_img img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%; 
+}
+.i_1 {
+    transform: translate(5%,15%) scale(0.4) rotate(-5deg);
+}
+.i_2 {
+    transform: translate(-10%,-20%) scale(0.4) rotate(-1deg);
+} 
+.i_3 {
+    transform: translate(-20%,5%) scale(0.4) rotate(-4deg);
+}
+.i_4 {
+    transform: translate(10%,-7%) scale(0.4) rotate(7deg);
+}
+/* ----------------------------- */
+/* .guardar{
+    display: none;
+}
+#commentObtenido{
+    display: none;
+}
+#authorObtenido{
+    display: none;
+}
+#emailObtenido{
+    display: none;
+}
+#submitObtenido{
+    display: none;
+} */
+/* ------------------------------- */
+/* html4 */
+#index4 {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#h1_4{
+    text-align: left;
+}
+.historia1 {
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: rgb(15, 85, 146);
+top: 40px;
+}
+.historia2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:red;
+    }
+.historia3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:blue;
+    }

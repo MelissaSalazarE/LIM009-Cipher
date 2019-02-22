@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cifrado cesar</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+  <body >
+      <main>
+      <div class="content-all">
+      <header></header>  
+      <header>
+          <input type="checkbox" id="btn-menu">
+          <label for="btn-menu"><i class="fa fa-list-ul"></i>
+          </label>
+              <nav class="menu">
+                  <ul>
+                      <li><a href="index.html">INICIO</a></li>
+                      <li><a href="index2.html">SERVICIOS</a></li>
+                      <li><a href="index3.html">CONTACTO</a></li>
+                      <li><a href="index4.html">Testimonios</a></li>
+                  </ul>
+              </nav>
+      </header>  
+      <article>
+         <h1>CONTACT YOUR LOVE</h1>
+         <p class="parrafo1">Ahora puedes escribir sin ningun problema!!!</p>
+         <p>En esta seccion te mostrare como cifrar tus lindas fraces o lines hot para esa persona tan especial y tener la seguridad  que SOLO TU Y TU QUIEN MAS QUIERAS podra leer lo que escribas</p>
+         <p class="parrafo1">Ahora Cifraremos!!!</p>
+         <p class="contraseñaCifrar"><input id="contraseñaCifrar" name="url" type="text" value="" size="10"> <label for="url">CONTRASEÑA</label></p>
+         <textarea id="commentCifrar" name="comment-cifrar" cols="100%" rows="13" placeholder="Escribe tus lineas aqui..." ></textarea>
+         <p class="cifrarTexto"><input name="submit" type="submit" id="submit" class="submit" value="Cifrar" onclick="hacerClickCifrar()"></p>
+         <p class="parrafo2">Ahora descubriremos tu menzaje secreto!!!</p>
+
+         <p class="parrafo1">Ahora Descifraremos!!!</p>
+         <p class="contraseñaDescifrar"><input id="contraseñaDescifrar" name="url" type="text" value="" size="10"> <label for="url">CONTRASEÑA</label></p>
+         <textarea id="commentCifrar" name="comment-cifrar" cols="100%" rows="13" placeholder="Escribe tus lineas aqui..." ></textarea>
+         <p class="cifrarTexto"><input name="submit" type="submit" id="submit" class="submit" value="Descifrar" onclick="hacerClickDescifrar()"></p>    
+</article>
+  </div>
+  <footer class="footer">
+    <div class="pie_pagina">
+        <p>Página diseñada por Melissa Salazar</p>
+    </div>
+</footer>
+   </main>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
