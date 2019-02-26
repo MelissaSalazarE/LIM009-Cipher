@@ -12,7 +12,7 @@ function obtenerdatos() {
 };
 // Ahora haciendo la funcion cifrar //
 
-const btnCipher = document.getElementById('submit');
+const btnCipher = document.getElementById('btn-cifrar');
 const message = document.getElementById('commentCifrar');
 const codDes = document.getElementById('contraseñaCifrar');
 const message1 = document.getElementById('commentCifrar');
@@ -25,3 +25,24 @@ return message1.value = newMessage;
 }
 
 btnCipher.addEventListener("click",hacerClickCifrar)
+
+// Ahora haciendo la funcion de descifrar
+
+const btnCipher2 = document.getElementById('btn-descifrar');
+const message2 = document.getElementById('commentdescifrar');
+const codDes2 = document.getElementById('contraseñaDescifrar');
+const message3 = document.getElementById('commentdescifrar');
+
+function hacerClickdescifrar() {
+    let mensaje = message2.value;
+    let numero = parseInt(codDes2.value);
+    let newMessage = cipher.decode(numero,mensaje);
+    return message3.value = newMessage;
+}
+
+btnCipher2.addEventListener('click',hacerClickdescifrar)
+
+
+
+
+
