@@ -1,6 +1,6 @@
 window.cipher = {
   encode: (offset,string) => {
-
+     offset = offset%65 ;
     let newMessage ='';
     for (let i = 0; i < string.length; i++) {
       if (string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90) { 
@@ -23,7 +23,8 @@ window.cipher = {
   },
 
   decode: (offset,string) => {
-
+    
+    offset = offset%65 ;
     let newMessage ='';
     for (let i = 0; i < string.length; i++) {
       if(string[i].charCodeAt() >= 65 && string[i].charCodeAt() <=90) {
