@@ -1,4 +1,6 @@
 // Para el html contacto //
+
+/* eslint-disable no-unused-vars */
 function obtenerdatos() {
     let comment =document.getElementById('comment').value;
     let author = document.getElementById('author').value;
@@ -9,7 +11,9 @@ function obtenerdatos() {
     document.registro.authorObtenido.value = author;
     document.registro.emailObtenido.value = email;
     document.registro.submitObtenido.value = submit;
-};
+}
+/* eslint-enable no-unused-vars */
+
 // Ahora haciendo la funcion cifrar //
 
 const btnCipher = document.getElementById('btn-cifrar');
@@ -17,10 +21,10 @@ const message = document.getElementById('commentCifrar');
 const codDes = document.getElementById('contraseñaCifrar');
 const message1 = document.getElementById('commentCifrar');
 
-function hacerClickCifrar() {
-    let mensaje = message.value;
-    let numero = parseInt(codDes.value);
-    let newMessage = cipher.encode(numero,mensaje);
+const hacerClickCifrar =()=> {
+  let mensaje = message.value;
+  let numero = parseInt(codDes.value);
+  let newMessage = cipher.encode(numero,mensaje);
 return message1.value = newMessage;
 }
 
@@ -33,7 +37,7 @@ const message2 = document.getElementById('commentdescifrar');
 const codDes2 = document.getElementById('contraseñaDescifrar');
 const message3 = document.getElementById('commentdescifrar');
 
-function hacerClickdescifrar() {
+const hacerClickdescifrar =()=> {
     let mensaje = message2.value;
     let numero = parseInt(codDes2.value);
     let newMessage = cipher.decode(numero,mensaje);
