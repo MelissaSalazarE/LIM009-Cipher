@@ -303,3 +303,22 @@ margin-left: 23%;
 .autor{
     text-align: center
 }
+/* html*/
+.title{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: red;
+    font-size: 60px;
+
+}
+.love{
+    padding-left: 19%;
+    width: 62%;
+    height: 20%;
+}
+.paragraph1{
+    font-family: 'Laila', serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
