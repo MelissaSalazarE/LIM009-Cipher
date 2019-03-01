@@ -1,19 +1,3 @@
-// Para el html contacto //
-
-/* eslint-disable no-unused-vars */
-function obtenerdatos() {
-    let comment =document.getElementById('comment').value;
-    let author = document.getElementById('author').value;
-    let email = document.getElementById('email').value;
-    let submit = document.getElementById('submit').value;
-    
-    document.registro.commentObtenido.value = comment;
-    document.registro.authorObtenido.value = author;
-    document.registro.emailObtenido.value = email;
-    document.registro.submitObtenido.value = submit;
-}
-/* eslint-enable no-unused-vars */
-
 // Ahora haciendo la funcion cifrar //
 
 const btnCipher = document.getElementById('btn-cifrar');
@@ -30,7 +14,7 @@ return message1.value = newMessage;
 
 btnCipher.addEventListener("click",hacerClickCifrar)
 
-// Ahora haciendo la funcion de descifrar
+// Ahora haciendo la funcion de descifrar //
 
 const btnCipher2 = document.getElementById('btn-descifrar');
 const message2 = document.getElementById('commentdescifrar');
@@ -47,6 +31,32 @@ const hacerClickdescifrar =()=> {
 btnCipher2.addEventListener('click',hacerClickdescifrar)
 
 
+// creando los botones : clean //
 
+/* eslint-disable no-unused-vars */
 
+const cleantext =() => {
+    codDes.value = '';
+    message.value = '';
+    message2.value = '';
+    codDes2.value = '';
+}
+buttonClean.addEventListener('click',cleantext) 
 
+/* eslint-enable no-unused-vars */
+
+// Para el html contacto //
+
+/* eslint-disable no-unused-vars */
+function obtenerdatos() {
+    let comment =document.getElementById('comment').value;
+    let author = document.getElementById('author').value;
+    let email = document.getElementById('email').value;
+    let submit = document.getElementById('submit').value;
+    
+    document.registro.commentObtenido.value = comment;
+    document.registro.authorObtenido.value = author;
+    document.registro.emailObtenido.value = email;
+    document.registro.submitObtenido.value = submit;
+}
+/* eslint-enable no-unused-vars */
