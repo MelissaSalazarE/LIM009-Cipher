@@ -34,7 +34,7 @@ btnCipher2.addEventListener('click',hacerClickdescifrar)
 // creando los botones : clean //
 
 /* eslint-disable no-unused-vars */
-
+const buttonClean = document.getElementById('clean');
 const cleantext =() => {
     codDes.value = '';
     message.value = '';
