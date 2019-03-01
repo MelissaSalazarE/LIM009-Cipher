@@ -136,19 +136,22 @@ color: aliceblue;
 margin-top: 40px;
 letter-spacing: 2px;
 text-align: center;
-} */
+font-family: 'Laila', serif;
+}
 
 article img{
     width: 100px;
-    border: 4px solid white;
 }
 article .parrafo2{
 font-size: 20px;
 color: aliceblue;
 margin-top: 40px;
 letter-spacing: 1px;
+font-family: 'Laila', serif;
 }
-
+p{
+    font-family: 'Laila', serif;
+}
 /* -----------------------------------------------  */
 
 /* Esta funcion es para mostrar la imagen con el parrafo encima */
