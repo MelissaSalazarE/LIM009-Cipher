@@ -5,11 +5,14 @@ body {
     box-sizing: border-box;
     color: black;
     font-family: 'Courgette', cursive;
+    
+    
 }
 
 header {
     width: 100%;
     background: chocolate;
+    font-family: 'Pacifico', cursive;
 }
 
 #btn-menu {
@@ -24,6 +27,7 @@ header label {
     height: 30px;
     padding: 10px;
     border-right: 1px solid #fff;
+   
 }
 
 header label:hover {
@@ -123,6 +127,8 @@ article h1{
     font-weight: 100;
     margin-top: 20px;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    
 }
 article .parrafo1{
 font-size: 20px;
@@ -207,6 +213,7 @@ div#info2{
     background-origin: center;
     background-repeat: no-repeat;
     background-attachment: fixed;  
+    font-family: 'Pacifico', cursive;
 }
 
 .contenedor {
@@ -271,14 +278,15 @@ div#info2{
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-family: 'Pacifico', cursive;
 }
 #h1_4{
     text-align: center;
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Pacifico', cursive;
 }
 .historia1 {
 text-align: left;
-font-family: 'Courgette', cursive;
+font-family: 'Laila', serif;
 font-size: 20px;
 color: #004755;
 top: 40px;
@@ -289,11 +297,11 @@ margin-left: 23%;
     font-size: 20px;
     color:#004755;
     margin-right: 23%;
-    font-family: 'Courgette', cursive;
+    font-family: 'Laila', serif;
 }
 .historia3 {
     text-align: left;
-    font-family: 'Courgette', cursive;
+    font-family: 'Laila', serif;
     font-size: 20px;
     color:#004755;
     margin-left: 23%;

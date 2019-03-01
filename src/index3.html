@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Cifrado cesar</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Laila|Pacifico" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css"/>
     </head>
@@ -27,14 +28,14 @@
       </header>
 
       <article>
-         <h1>Contactanos Aqui</h1>
+         <h1>Contáctanos aquí</h1>
          <form name="registro">
          <p class="comment-form-comment">
         <textarea id="comment" name="comment" cols="50%" rows="13" placeholder="Escribenos tu comentario aqui..." ></textarea>
          </p>
-         <p class="comment-form-author"><input id="author" name="author" type="text" value="" size="30"> <label for="author">Nombre</label></p>
-         <p class="comment-form-email"><input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes"> <label for="email">Email </label></p>
-         <p class="comment-form-url"><input id="url" name="url" type="text" value="" size="30"> <label for="url">Sitio Web</label></p>
+         <p class="comment-form-author"><label for="author">Nombre</label> <input id="author" name="author" type="text" value="" size="30" placeholder="Ejemplo:Melissa"></p>
+         <p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" placeholder="Ejemplo:celeste_se@hotmail.com"></p>
+         <p class="comment-form-url"><label for="url">Sitio Web</label> <input id="url" name="url" type="text" value="" size="30" placeholder="Ejemplo:MelissaCorazon.net"></p>
          <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Enviar comentario" onclick="obtenerdatos()"> <input type="hidden" name="comment_post_ID" value="9438" id="comment_post_ID">
             <input type="hidden" name="comment_parent" id="comment_parent" value="0"></p>
        
@@ -63,10 +64,8 @@
   </div>
   <footer class="footer">
     <div class="pie_pagina">
-        <small>
-        <p class="autor">Página diseñada por Melissa Salazar</p>
-        </small>
-    </div>
+            <small class="autor">Página diseñada por Melissa Salazar</small>
+        </div>
 </footer>
    </main>
     <script src="cipher.js"></script>
