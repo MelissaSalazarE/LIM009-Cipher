@@ -1,74 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Cifrado cesar</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Laila|Pacifico" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-  <body id="index3">
-      <main>
-      <div class="content-all">
-      <header></header>  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cifrado cesar</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Laila|Pacifico" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="index3">
+  <main>
+    <div class="content-all">
       <header>
-          <input type="checkbox" id="btn-menu">
-          <label for="btn-menu"><i class="fa fa-list-ul"></i>
-          </label>
-              <nav class="menu">
-                  <ul>
-                      <li><a href="index.html">INICIO</a></li>
-                      <li><a href="index2.html">SERVICIOS</a></li>
-                      <li><a href="index3.html">CONTACTO</a></li>
-                      <li><a href="index4.html">TESTIMONIOS</a></li>
-                  </ul>
-              </nav>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><i class="fa fa-list-ul"></i>
+        </label>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="index2.html">SERVICIOS</a></li>
+            <li><a href="index3.html">CONTACTO</a></li>
+            <li><a href="index4.html">TESTIMONIOS</a></li>
+          </ul>
+        </nav>
       </header>
 
       <article>
-         <h1>Contáctanos aquí</h1>
-         <form name="registro">
-         <p class="comment-form-comment">
-        <textarea id="comment" name="comment" cols="50" rows="13" placeholder="Escribenos tu comentario aqui..." ></textarea>
-         </p>
-         <p class="comment-form-author"><label for="author">Nombre</label> <input id="author" name="author" type="text" value="" size="30" placeholder="Ejemplo:Melissa"></p>
-         <p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" placeholder="Ejemplo:celeste_se@hotmail.com"></p>
-         <p class="comment-form-url"><label for="url">Sitio Web</label> <input id="url" name="url" type="text" value="" size="30" placeholder="Ejemplo:MelissaCorazon.net"></p>
-         <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Enviar comentario" onclick="obtenerdatos()"> <input type="hidden" name="comment_post_ID" value="9438" id="comment_post_ID">
+        <h1>Contáctanos aquí</h1>
+        <form name="registro">
+          <p class="comment-form-comment">
+            <textarea id="comment" name="comment" cols="50" rows="13" placeholder="Escribenos tu comentario aqui..."></textarea>
+          </p>
+          <p class="comment-form-author"><label for="author">Nombre</label><input id="author" name="author" type="text" value=""
+              size="30" placeholder="Ejemplo:Melissa"></p>
+          <p class="comment-form-email"><label for="email">Email</label><input id="email" name="email" type="text" value=""
+              size="30" aria-describedby="email-notes" placeholder="Ejemplo:celeste_se@hotmail.com"></p>
+          <p class="comment-form-url"><label for="url">Sitio Web</label><input id="url" name="url" type="text" value="" size="30"
+              placeholder="Ejemplo:MelissaCorazon.net"></p>
+          <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Enviar comentario"
+              onclick="obtenerdatos()"> <input type="hidden" name="comment_post_ID" value="9438" id="comment_post_ID">
             <input type="hidden" name="comment_parent" id="comment_parent" value="0"></p>
-       
-        <table class="guardar">
+
+          <table class="guardar">
             <input type="text" name="commentObtenido" id="commentObtenido">
             <input type="text" name="authorObtenido" id="authorObtenido">
             <input type="text" name="emailObtenido" id="emailObtenido">
             <input type="text" name="submitObtenido" id="submitObtenido">
-        </table>
+          </table>
         </form>
-         <div class="contenedor">
-             <div class="con_img i_1">
-                <img src="imagenes/Parejas-Enamoradas-1.jpg" alt="">
-             </div>
-         <div class="con_img i_2">
+        <div class="contenedor">
+          <div class="con_img i_1">
+            <img src="imagenes/Parejas-Enamoradas-1.jpg" alt="">
+          </div>
+          <div class="con_img i_2">
             <img src="imagenes/Parejas-Enamoradas-2.jpg" alt="">
-         </div>
-         <div class="con_img i_3">
+          </div>
+          <div class="con_img i_3">
             <img src="imagenes/Parejas-Enamoradas-3.jpg" alt="">
-         </div>
-         <div class="con_img i_4">
+          </div>
+          <div class="con_img i_4">
             <img src="imagenes/Parejas-Enamoradas-4.jpg" alt="">
-         </div>
+          </div>
         </div>
-</article>
-  </div>
-  <footer class="footer">
-    <div class="pie_pagina">
-            <small class="autor">Página diseñada por Melissa Salazar</small>
-        </div>
-</footer>
-   </main>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+      </article>
+    </div>
+    <footer class="footer">
+      <small class="autor">Página diseñada por Melissa Salazar</small>
+    </footer>
+  </main>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Cifrado cesar</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Laila|Pacifico" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-  <body >
-      <main>
-      <div class="content-all">
-      <header></header>  
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cifrado cesar</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Laila|Pacifico" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="content-all">
       <header>
-          <input type="checkbox" id="btn-menu">
-          <label for="btn-menu"><i class="fa fa-list-ul"></i>
-          </label>
-              <nav class="menu">
-                  <ul>
-                      <li><a href="index.html">INICIO</a></li>
-                      <li><a href="index2.html">SERVICIOS</a></li>
-                      <li><a href="index3.html">CONTACTO</a></li>
-                      <li><a href="index4.html">TESTIMONIOS</a></li>
-                  </ul>
-              </nav>
-      </header>  
-    <article>
-         <h1>Contact your love</h1>
-         <p class="parrafo1">¡Ahora puedes escribir sin ningùn problema!</p>
-         <p>En esta secciòn te mostrarè còmo cifrar tus lindas frases o hot-lines para esa persona tan especial y tener la seguridad  que <strong>SOLO TÙ Y QUIEN MÀS TÙ QUIERAS</strong> podrà leer lo que escribas.</p>
-         <p class="parrafo1">¡Ahora cifraremos!</p>
-         <div id="clean-and-copy">
-            <button id="clean"></button>
-            <button id="copy"></button>
-            <button type="button" id="btn-whatsapp" class="icons"></button>
-          </div>
-         <p class="contraseñaCifrar"><input id="contraseñaCifrar" name="url" type="number" value="" size="10"> <label>CONTRASEÑA</label></p>
-         <textarea id="commentCifrar" name="comment-cifrar" cols="100" rows="13" placeholder="Escribe tus lineas aqui..." ></textarea>
-         <button type="button" id="btn-cifrar"><img src="imagenes/candado.png" alt="" class="img-encode-and-decode">Cifrar</button>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><i class="fa fa-list-ul"></i>
+        </label>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="index2.html">SERVICIOS</a></li>
+            <li><a href="index3.html">CONTACTO</a></li>
+            <li><a href="index4.html">TESTIMONIOS</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article>
+        <h1>Contact your love</h1>
+        <p class="parrafo1">¡Ahora puedes escribir sin ningùn problema!</p>
+        <p>En esta secciòn te mostrarè còmo cifrar tus lindas frases o hot-lines para esa persona tan especial y tener la
+          seguridad que <strong>SOLO TÙ Y QUIEN MÀS TÙ QUIERAS</strong> podrà leer lo que escribas.</p>
+        <p class="parrafo1">¡Ahora cifraremos!</p>
+        <p class="contraseñaCifrar"><input id="contraseñaCifrar" name="url" type="number" value="" size="10"> <label>CONTRASEÑA</label></p>
+        <textarea id="commentCifrar" name="comment-cifrar" cols="100" rows="13" placeholder="Escribe tus lineas aqui..."></textarea>
+        <button type="button" id="btn-cifrar"><img src="imagenes/candado.png" alt="" class="img-encode-and-decode">Cifrar</button>
 
-         <p class="parrafo1">¡¡Ahora descubriremos tu mensaje secreto!!</p>
+        <p class="parrafo1">¡¡Ahora descubriremos tu mensaje secreto!!</p>
 
-         <p class="parrafo1">¡Ahora descifraremos!</p>
-         <p class="contraseñaDescifrar"><input id="contraseñaDescifrar" name="url" type="number" value="" size="10"> <label>CONTRASEÑA</label></p>
-         <textarea id="commentdescifrar" name="comment-descifrar" cols="100" rows="13" placeholder="Escribe tus lineas aqui..." ></textarea>
-         <button type="button" id="btn-descifrar"><img src="imagenes/candado2.png" alt="" class="img-encode-and-decode">Descifrar</button>
-         
-    </article>
-  </div>
-  <footer class="footer">
-    <div class="pie_pagina">
-        <small class="autor">Página diseñada por Melissa Salazar</small>
+        <p class="parrafo1">¡Ahora descifraremos!</p>
+        <p class="contraseñaDescifrar"><input id="contraseñaDescifrar" name="url" type="number" value="" size="10"> <label>CONTRASEÑA</label></p>
+        <textarea id="commentdescifrar" name="comment-descifrar" cols="100" rows="13" placeholder="Escribe tus lineas aqui..."></textarea>
+        <button type="button" id="btn-descifrar"><img src="imagenes/candado2.png" alt="" class="img-encode-and-decode">Descifrar</button>
+
+      </article>
     </div>
-</footer>
-</main>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <footer class="footer">
+        <small class="autor">Página diseñada por Melissa Salazar</small>
+    </footer>
+  </main>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
