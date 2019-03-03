@@ -333,3 +333,9 @@ margin-left: 23%;
     font-size: 20px;
     text-align: center;
 }
+/* Para las imagenes de los botones de cifrar */
+.img-encode-and-decode {
+    width: 25px;
+    height: 25px;
+    margin: 0px 2px;
+  }
