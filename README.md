@@ -86,7 +86,7 @@ Obteniendo el siguiente resultado:
 ## Instalación / Uso
 
 Puedes acceder a la aplicación desde tu laptop / tablet o celular desde el siguiente link:
-https://https://melissasalazare.github.io/LIM009-Cipher//src/
+https://melissasalazare.github.io/LIM009-Cipher/src/#
 
 Te invito a seguir los siguientes pasos para mejorar tu experiencia utilizando Contact your love :
 
