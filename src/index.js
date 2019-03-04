@@ -28,7 +28,7 @@ seccionServicios.addEventListener('click',() => {
     paginaInicio.style.display="none";
     paginaServicio.style.display="block";
     paginaContacto.style.display="none";
-    pginaTestimonio.style.display="none"; 
+    paginaTestimonio.style.display="none"; 
 });
 seccionContacto.addEventListener('click',() => {
     paginaInicio.style.display="none";
@@ -42,9 +42,6 @@ seccionTestimonios.addEventListener('click',() => {
     paginaContacto.style.display="none";
     paginaTestimonio.style.display="block"; 
 });
-
-
-
 
 // Ahora haciendo la funcion cifrar //
 
@@ -78,19 +75,14 @@ const hacerClickDescifrar = () => {
 
 btnCipher2.addEventListener('click', hacerClickDescifrar);
 
-// Para el html contacto //
 
-/* eslint-disable no-unused-vars */
-function obtenerdatos() {
-    let comment = document.getElementById('comment').value;
-    let author = document.getElementById('author').value;
-    let email = document.getElementById('email').value;
-    let submit = document.getElementById('submit').value;
+//  Para el registro  //
 
-    document.registro.commentObtenido.value = comment;
-    document.registro.authorObtenido.value = author;
-    document.registro.emailObtenido.value = email;
-    document.registro.submitObtenido.value = submit;
-}
-/* eslint-enable no-unused-vars */
+const buttonClean =document.getElementById('submit')
 
+buttonClean.addEventListener('click', () => {
+    comment.value = '';
+    author.value = '';
+    email.value = '';
+    url.value = '';
+});

@@ -226,7 +226,7 @@ div#info2{
     top: 75%;
     left: 55%;
     transform: translate(-0.5%,-80%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:  #EA8A8D;
     box-shadow: 0  0 40px 5px rgba(255, 255, 255, 0.6)
 }
 .con_img {
@@ -258,22 +258,7 @@ div#info2{
 .i_4 {
     transform: translate(10%,-7%) scale(0.4) rotate(7deg);
 }
-/* ----------------------------- */
-.guardar{
-    display: none;
-}
-#commentObtenido{
-    display: none;
-}
-#authorObtenido{
-    display: none;
-}
-#emailObtenido{
-    display: none;
-}
-#submitObtenido{
-    display: none;
-}
+
 /* ------------------------------- */
 /* html4 */
 #index4 {
@@ -287,14 +272,15 @@ div#info2{
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
-.historia1 {
+/* .historia1 {
 text-align: left;
 font-family: 'Laila', serif;
 font-size: 20px;
 color: #004755;
 top: 40px;
 margin-left: 23%;
-}
+
+} */
 .historia2 {
     text-align: left;
     font-size: 20px;
@@ -320,12 +306,14 @@ margin-left: 23%;
     text-align: center;
     color: red;
     font-size: 60px;
-
+    margin: -13.6px;
 }
 .love{
     padding-left: 19%;
     width: 62%;
     height: 20%;
+    border-radius: 25px;
+    
 }
 .paragraph1{
     font-family: 'Laila', serif;
@@ -334,8 +322,45 @@ margin-left: 23%;
     text-align: center;
 }
 /* Para las imagenes de los botones de cifrar */
+
 .img-encode-and-decode {
     width: 25px;
     height: 25px;
     margin: 0px 2px;
   }
+  /* testimonios */
+
+ .historia1 { grid-area: menu; }
+ .img1 { grid-area: main; }
+
+ .grid-container{
+     display: grid;
+     grid-template-areas:
+     'menu menu main main main';
+     grid-gap: 10px;
+     background-color: #2196F3;
+     padding: 10px;
+}
+   
+   .grid-container > div {
+     background-color: rgba(255, 255, 255, 0.8);
+     text-align: center;
+     padding: 20px 0;
+     font-size: 30px;
+}
+
+.img1 {
+    height: 150px;
+    width: 150px;
+
+}
+.img2 {
+    height: 150px;
+    width: 150px;
+
+}
+.img3 {
+    height: 150px;
+    width: 150px;
+
+}

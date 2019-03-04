@@ -6,7 +6,7 @@ Contact your love es tu mensajero confidencial. Una herramienta que permitirá a
 
 Contact your love va dirigido a todas las personas que tienen un particular interés de comunicarse mediante textos cifrados con fin de proteger su privacidad. Esta aplicación web es la solución al problema de aquellos que sientan preocupación por el hecho de que un tercero pueda leer sus conversaciones privadas, ya que al cifrar el mensaje, en pantalla solo aparecerá una sucesión de números o caracteres sin sentido, y para poder interpretarlo (descifrarlo) será necesario conocer el código secreto.
 
-![chat-friends](https://st3.depositphotos.com/5011263/18971/v/1600/depositphotos_189715804-stock-illustration-loving-mobile-phones-romantic-correspondence.jpg)
+![chat-friends](imagen-readme/telefono.png)
 
 
 ## Proceso de diseño
