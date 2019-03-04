@@ -78,11 +78,21 @@ btnCipher2.addEventListener('click', hacerClickDescifrar);
 
 //  Para el registro  //
 
-const buttonClean =document.getElementById('submit')
+// /* eslint-disable no-unused-vars */
+
+// const comment = document.getElementById('coment')
+// const author = document.getElementById('author')
+// const email = document.getElementById('email')
+// const url = document.getElementById('url')
+
+const buttonClean = document.getElementById('submit')
 
 buttonClean.addEventListener('click', () => {
+    
     comment.value = '';
     author.value = '';
     email.value = '';
     url.value = '';
 });
+
+// /* eslint-enable no-unused-vars */

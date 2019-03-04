@@ -132,7 +132,7 @@ article h1{
 }
 article .parrafo1{
 font-size: 20px;
-color: aliceblue;
+color: black;
 margin-top: 40px;
 letter-spacing: 2px;
 text-align: center;
@@ -144,7 +144,7 @@ article img{
 }
 article .parrafo2{
 font-size: 20px;
-color: aliceblue;
+color: black;
 margin-top: 40px;
 letter-spacing: 1px;
 font-family: 'Laila', serif;
@@ -152,7 +152,21 @@ font-family: 'Laila', serif;
 p{
     font-family: 'Laila', serif;
 }
+
 /* -----------------------------------------------  */
+
+#commentCifrar {
+    width: 80%;
+}
+#commentdescifrar {
+    width: 80%;
+}
+#comment{
+    width: 50%;  
+}
+#imagen{
+    width: 30%;
+}
 
 /* Esta funcion es para mostrar la imagen con el parrafo encima */
 
@@ -173,6 +187,7 @@ div#info{
     -webkit-transition: opacity 0.6s;
     opacity: 0;
     color: blue;
+    text-align: center;
 }
 
 div#imagen:hover div#info{
@@ -272,7 +287,7 @@ div#info2{
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
-/* .historia1 {
+.historia1 {
 text-align: left;
 font-family: 'Laila', serif;
 font-size: 20px;
@@ -280,7 +295,8 @@ color: #004755;
 top: 40px;
 margin-left: 23%;
 
-} */
+
+}
 .historia2 {
     text-align: left;
     font-size: 20px;
@@ -297,8 +313,8 @@ margin-left: 23%;
 }
 /* pagina general */
 
-.autor{
-    text-align: center
+#footer{
+    text-align: center;
 }
 /* html*/
 .title{
@@ -327,40 +343,26 @@ margin-left: 23%;
     width: 25px;
     height: 25px;
     margin: 0px 2px;
+    color: #EA8A8D;
   }
-  /* testimonios */
-
- .historia1 { grid-area: menu; }
- .img1 { grid-area: main; }
-
- .grid-container{
-     display: grid;
-     grid-template-areas:
-     'menu menu main main main';
-     grid-gap: 10px;
-     background-color: #2196F3;
-     padding: 10px;
-}
-   
-   .grid-container > div {
-     background-color: rgba(255, 255, 255, 0.8);
-     text-align: center;
-     padding: 20px 0;
-     font-size: 30px;
-}
 
 .img1 {
-    height: 150px;
-    width: 150px;
+    width: 20%;
 
 }
 .img2 {
-    height: 150px;
-    width: 150px;
+    width: 20%;
 
 }
 .img3 {
-    height: 150px;
-    width: 150px;
+    width: 20%;
+
+}
+
+#submit{
+    color: #1a3d5e;
+    border-bottom: #EA8A8D;
+    border-radius: 10%;
+    width: 20%;
 
 }
