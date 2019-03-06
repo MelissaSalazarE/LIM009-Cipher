@@ -157,6 +157,7 @@ p{
 
 #commentCifrar {
     width: 80%;
+
 }
 #commentdescifrar {
     width: 80%;
@@ -164,7 +165,12 @@ p{
 #comment{
     width: 50%;  
 }
-
+.contraseñaCifrar{
+    text-align: center;
+}
+.contraseñaDescifrar{
+    text-align: center;
+}
 
 /* Esta funcion es para mostrar la imagen con el parrafo encima */
 
@@ -291,7 +297,7 @@ font-family: 'Laila', serif;
 font-size: 20px;
 color: #004755;
 top: 40px;
-margin-left: 23%;
+margin-left: 15%;
 
 
 }
@@ -299,7 +305,7 @@ margin-left: 23%;
     text-align: left;
     font-size: 20px;
     color:#004755;
-    margin-right: 23%;
+    margin-left: 15%;
     font-family: 'Laila', serif;
 }
 .historia3 {
@@ -307,7 +313,7 @@ margin-left: 23%;
     font-family: 'Laila', serif;
     font-size: 20px;
     color:#004755;
-    margin-left: 23%;
+    margin-left: 15%;
 }
 /* pagina general */
 
