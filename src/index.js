@@ -80,10 +80,10 @@ btnCipher2.addEventListener('click', hacerClickDescifrar);
 
 // /* eslint-disable no-unused-vars */
 
-// const comment = document.getElementById('coment')
-// const author = document.getElementById('author')
-// const email = document.getElementById('email')
-// const url = document.getElementById('url')
+const comment = document.getElementById('coment')
+const author = document.getElementById('author')
+const email = document.getElementById('email')
+const url = document.getElementById('url')
 
 const buttonClean = document.getElementById('submit')
 
