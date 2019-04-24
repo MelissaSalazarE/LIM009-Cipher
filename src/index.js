@@ -1,6 +1,5 @@
 // Capturando los html //
 
-
 const seccionInicio = document.getElementById('seccion-inicio');
 const seccionServicios = document.getElementById('seccion-servicios');
 const seccionContacto = document.getElementById('seccion-contacto');
@@ -75,6 +74,47 @@ const hacerClickDescifrar = () => {
 
 btnCipher2.addEventListener('click', hacerClickDescifrar);
 
+// botones de copy,clean,whatsapp //
+
+const buttonClean = document.getElementById('clean');
+const buttonCopy = document.getElementById('copy');
+const btnWhatsapp = document.getElementById("btn-whatsapp");
+
+btnWhatsapp.addEventListener('click', () => {
+    const sendMessage = "https://api.whatsapp.com/send?text= " + (document.getElementById('commentCifrar').value);
+    window.open(sendMessage);
+    
+});
+
+buttonClean.addEventListener('click', () => {
+    message1.value = '';
+    message3.value = '';
+    codDes.value = '';
+    codDes2.value = '';
+});
+
+buttonCopy.addEventListener('click', (id_elemento) => {
+    id_elemento = message1.value;
+    // Crea un campo de texto "oculto"
+    const aux = document.createElement("input");
+    // Asigna el contenido del elemento especificado al valor del campo
+    aux.setAttribute("value", id_elemento);
+
+    // Anade el campo a la pagina
+    document.body.appendChild(aux);
+
+    // Selecciona el contenido del campo
+    aux.select();
+
+    // Copia el texto seleccionado
+    document.execCommand("copy");
+
+    // Elimina el campo de la pagina
+    document.body.removeChild(aux);
+
+    //console.log("texto copiado")
+
+});
 
 //  Para el registro  //
 
@@ -85,10 +125,9 @@ const author = document.getElementById('author')
 const email = document.getElementById('email')
 const url = document.getElementById('url')
 
-const buttonClean = document.getElementById('submit')
+const buttonborrar = document.getElementById('submit')
 
-buttonClean.addEventListener('click', () => {
-    
+buttonborrar.addEventListener('click', () => {   
     comment.value = '';
     author.value = '';
     email.value = '';
@@ -96,3 +135,4 @@ buttonClean.addEventListener('click', () => {
 });
 
 // /* eslint-enable no-unused-vars */
+
